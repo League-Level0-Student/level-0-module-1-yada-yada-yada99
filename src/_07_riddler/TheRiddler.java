@@ -15,19 +15,33 @@ public class TheRiddler {
 int score = 0;
 		// 3. Ask the user a riddle. Here are some ideas: bit.ly/some-riddles
 String answer = JOptionPane.showInputDialog("What gets wetter and wetter the more it dries?");
-		// 4. If they got the answer right, pop up "correct!" and increase the score by one
+		
 if (answer.equalsIgnoreCase("A Towel")){
 	score = 1;
 	JOptionPane.showMessageDialog(null, "Correct! +1 point");
 }
-		// 5. Otherwise, say "wrong" and tell them the answer
+		
 else {
 	JOptionPane.showMessageDialog(null, "Nope! +0");
 }
-		// 6. Add some more riddles
+String answer2 = JOptionPane.showInputDialog("What has legs, but doesn’t walk?");
 
-		// 2. Make a pop up to show the score.
+if (answer2.equalsIgnoreCase("A Table")){
+	score = 2;
+	JOptionPane.showMessageDialog(null, "Correct! +1 point");
+}
+		
+else {
+	JOptionPane.showMessageDialog(null, "Nope! +0");
+		
 		
 	}
 }
+}
+
+
+
+
+
+
 
