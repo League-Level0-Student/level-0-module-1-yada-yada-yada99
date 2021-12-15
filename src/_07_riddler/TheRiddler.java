@@ -17,17 +17,17 @@ int score = 0;
 String answer = JOptionPane.showInputDialog("What gets wetter and wetter the more it dries?");
 		
 if (answer.equalsIgnoreCase("A Towel")){
-	score = 1;
+	score ++;
 	JOptionPane.showMessageDialog(null, "Correct! +1 point");
 }
 		
 else {
 	JOptionPane.showMessageDialog(null, "Nope! +0");
 }
-String answer2 = JOptionPane.showInputDialog("What has legs, but doesn’t walk?");
+String answer2 = JOptionPane.showInputDialog("What has legs, but doesnï¿½t walk?");
 
 if (answer2.equalsIgnoreCase("A Table")){
-	score = 2;
+	score ++;
 	JOptionPane.showMessageDialog(null, "Correct! +1 point");
 }
 		
@@ -36,6 +36,7 @@ else {
 		
 		
 	}
+JOptionPane.showMessageDialog(null, "Your Score = " +score);
 }
 }
 
